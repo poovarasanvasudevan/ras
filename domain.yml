@@ -11,6 +11,7 @@ intents:
   - ask_location
   - ask_problem
   - ask_name
+  - thanks
 
 entities:
  - location
@@ -39,8 +40,12 @@ actions:
 - ask_location
 - ask_problem
 - ask_name
+- thanks
 
 templates:
+  thanks:
+  - "You are very welcome."
+  - "Glad I could help!"
   ask_name:
   - text: "May i know your name"
   - text: "How can i call you"
