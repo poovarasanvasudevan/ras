@@ -17,8 +17,8 @@ class NerEntityExtractor(EntityExtractor):
     provides = ["entities"]
 
     def process(self, message, **kwargs):
-        tagger = StanfordNERTagger('english.all.3class.distsim.crf.ser.gz',
-                                   'stanford-net.jar')
+        tagger = StanfordNERTagger('C:\\Users\\iampo\\PycharmProjects\\RasaBot\\core\\english.all.3class.distsim.crf.ser.gz',
+                                   'C:\\Users\\iampo\\PycharmProjects\\RasaBot\\core\\stanford-net.jar')
         tokenized_text = word_tokenize(message.text)
         classified_text = tagger.tag(tokenized_text)
         logger.info(message.text)
