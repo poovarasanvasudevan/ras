@@ -1,0 +1,489 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "never"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no way"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not really"
+      },
+      {
+        "intent": "mood_great",
+        "text": "perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "wonderful"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I'm good"
+      },
+      {
+        "intent": "finddoctor",
+        "text": "please find the doctor"
+      },
+      {
+        "intent": "finddoctor",
+        "text": "can you find the doctor for me"
+      },
+      {
+        "intent": "finddoctor",
+        "text": "is doctors available"
+      },
+      {
+        "intent": "finddoctor",
+        "text": "what are all the doctor available for me"
+      },
+      {
+        "intent": "finddoctor",
+        "text": "Is any doctor available"
+      },
+      {
+        "intent": "finddoctor",
+        "text": "i had a problem please find the doctor"
+      },
+      {
+        "intent": "finddoctor",
+        "text": "i had a pain"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "awful"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "extremly sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so sad"
+      },
+      {
+        "intent": "introduce",
+        "text": "how can you help"
+      },
+      {
+        "intent": "introduce",
+        "text": "can you help"
+      },
+      {
+        "intent": "introduce",
+        "text": "what service you offer"
+      },
+      {
+        "intent": "introduce",
+        "text": "can you help me"
+      },
+      {
+        "intent": "introduce",
+        "text": "please find my problem"
+      },
+      {
+        "intent": "introduce",
+        "text": "please help me"
+      },
+      {
+        "intent": "introduce",
+        "text": "help please"
+      },
+      {
+        "intent": "ask_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "poovarasan",
+            "entity": "name"
+          }
+        ],
+        "text": "i am poovarasan"
+      },
+      {
+        "intent": "ask_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "poovarasan",
+            "entity": "name"
+          }
+        ],
+        "text": "my name is poovarasan"
+      },
+      {
+        "intent": "ask_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "poovarasan",
+            "entity": "name"
+          }
+        ],
+        "text": "poovarasan is my name"
+      },
+      {
+        "intent": "ask_problem",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "sick",
+            "entity": "user_problem"
+          }
+        ],
+        "text": "i feel sick"
+      },
+      {
+        "intent": "ask_problem",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "sick",
+            "entity": "user_problem"
+          }
+        ],
+        "text": "i feeling sick"
+      },
+      {
+        "intent": "ask_problem",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "fever",
+            "entity": "user_problem"
+          }
+        ],
+        "text": "i am suffering from fever"
+      },
+      {
+        "intent": "ask_problem",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "cold",
+            "entity": "user_problem"
+          }
+        ],
+        "text": "suffered with cold"
+      },
+      {
+        "intent": "ask_problem",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "ankle",
+            "entity": "user_problem"
+          }
+        ],
+        "text": "ankle injury"
+      },
+      {
+        "intent": "ask_problem",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "head ache",
+            "entity": "user_problem"
+          }
+        ],
+        "text": "head ache for some time"
+      },
+      {
+        "intent": "ask_problem",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "cancer",
+            "entity": "user_problem"
+          }
+        ],
+        "text": "i am affected with cancer"
+      },
+      {
+        "intent": "ask_location",
+        "text": "doctors near me"
+      },
+      {
+        "intent": "ask_location",
+        "text": "nearby doctors"
+      },
+      {
+        "intent": "ask_location",
+        "text": "doctors near to my location"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "Chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "doctors around Chennai"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "chennai location"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "i am from chennai"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "Chennai is my location"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "near to chennai"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "around chennai"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "Chennai is the location"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "632602",
+            "entity": "location"
+          }
+        ],
+        "text": "my zip code is 632602"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "632602",
+            "entity": "location"
+          }
+        ],
+        "text": "i am from 632602"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "632602",
+            "entity": "location"
+          }
+        ],
+        "text": "my zip 632602"
+      },
+      {
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "632602",
+            "entity": "location"
+          }
+        ],
+        "text": "my location is 632602"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}(?:-[0-9]{4})?"
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

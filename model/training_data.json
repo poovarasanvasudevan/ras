@@ -1,0 +1,370 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you around",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "of course",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "that sounds good",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "correct",
+        "intent": "mood_affirm",
+        "entities": []
+      },
+      {
+        "text": "no",
+        "intent": "mood_deny",
+        "entities": []
+      },
+      {
+        "text": "never",
+        "intent": "mood_deny",
+        "entities": []
+      },
+      {
+        "text": "I don't think so",
+        "intent": "mood_deny",
+        "entities": []
+      },
+      {
+        "text": "don't like that",
+        "intent": "mood_deny",
+        "entities": []
+      },
+      {
+        "text": "no way",
+        "intent": "mood_deny",
+        "entities": []
+      },
+      {
+        "text": "not really",
+        "intent": "mood_deny",
+        "entities": []
+      },
+      {
+        "text": "perfect",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "very good",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "amazing",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "wonderful",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "I am feeling very good",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "I am great",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "I'm good",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "please find the doctor",
+        "intent": "finddoctor",
+        "entities": []
+      },
+      {
+        "text": "can you find the doctor for me",
+        "intent": "finddoctor",
+        "entities": []
+      },
+      {
+        "text": "is doctors available",
+        "intent": "finddoctor",
+        "entities": []
+      },
+      {
+        "text": "what are all the doctor available for me",
+        "intent": "finddoctor",
+        "entities": []
+      },
+      {
+        "text": "Is any doctor available",
+        "intent": "finddoctor",
+        "entities": []
+      },
+      {
+        "text": "i had a problem please find the doctor",
+        "intent": "finddoctor",
+        "entities": []
+      },
+      {
+        "text": "i had a pain",
+        "intent": "finddoctor",
+        "entities": []
+      },
+      {
+        "text": "sad",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "very sad",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "unhappy",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "bad",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "very bad",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "awful",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "terrible",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "not very good",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "extremly sad",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "so sad",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "how can you help",
+        "intent": "introduce",
+        "entities": []
+      },
+      {
+        "text": "can you help",
+        "intent": "introduce",
+        "entities": []
+      },
+      {
+        "text": "what service you offer",
+        "intent": "introduce",
+        "entities": []
+      },
+      {
+        "text": "can you help me",
+        "intent": "introduce",
+        "entities": []
+      },
+      {
+        "text": "please find my problem",
+        "intent": "introduce",
+        "entities": []
+      },
+      {
+        "text": "please help me",
+        "intent": "introduce",
+        "entities": []
+      },
+      {
+        "text": "help please",
+        "intent": "introduce",
+        "entities": []
+      },
+      {
+        "text": "doctors near me",
+        "intent": "ask_location",
+        "entities": []
+      },
+      {
+        "text": "nearby doctors",
+        "intent": "ask_location",
+        "entities": []
+      },
+      {
+        "text": "doctors near to my location",
+        "intent": "ask_location",
+        "entities": []
+      },
+      {
+        "text": "doctors around Chennai",
+        "intent": "ask_location",
+        "entities": []
+      },
+      {
+        "text": "chennai location",
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "chennai ",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "i am from chennai",
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Chennai is my location",
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chennai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "near to chennai",
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "around chennai",
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Chennai is the location",
+        "intent": "ask_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chennai",
+            "entity": "location"
+          }
+        ]
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}(?:-[0-9]{4})?"
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

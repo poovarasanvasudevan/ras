@@ -1,0 +1,108 @@
+%YAML 1.1
+---
+action_factory: null
+action_names:
+- greet
+- cheer_up
+- did_that_help
+- happy
+- goodbye
+- unknown
+- welcome
+- finddoctor
+- ask_location
+- ask_problem
+- ask_name
+actions:
+- greet
+- cheer_up
+- did_that_help
+- happy
+- goodbye
+- unknown
+- welcome
+- finddoctor
+- ask_location
+- ask_problem
+- ask_name
+config:
+  store_entities_as_slots: true
+entities:
+- location
+- name
+- user_problem
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- unknown:
+    use_entities: true
+- mood_affirm:
+    use_entities: true
+- mood_deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- introduce:
+    use_entities: true
+- finddoctor:
+    use_entities: true
+- ask_location:
+    use_entities: true
+- ask_problem:
+    use_entities: true
+- ask_name:
+    use_entities: true
+slots:
+  ask_name:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  name:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  user_problem:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  ask_location:
+  - text: Where do you from
+  ask_name:
+  - text: May i know your name
+  - text: How can i call you
+  - text: your name please
+  ask_problem:
+  - text: Finding the Appropriate doctors for {user_problem}
+  cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  did_that_help:
+  - text: Did that help you?
+  finddoctor:
+  - text: I will find the doctor as your need
+  goodbye:
+  - text: Bye
+  greet:
+  - text: Hey! How are you?
+  happy:
+  - text: Great carry on!
+  unknown:
+  - text: I didn't get that. Can you say it again?
+  - text: I missed what you said. What was that?
+  - text: Sorry, could you say that again?
+  - text: Sorry, can you say that again?
+  - text: Can you say that again?
+  - text: Sorry, I didn't get that. Can you rephrase?
+  - text: Sorry, what was that?
+  - text: One more time?
+  - text: What was that?
+  - text: Say that one more time?
+  - text: I didn't get that. Can you repeat?
+  - text: I missed that, say that again?
+  welcome:
+  - text: Hello {name}! How can i Help you?

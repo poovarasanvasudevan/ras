@@ -1,0 +1,89 @@
+intents:
+  - greet
+  - goodbye
+  - unknown
+  - mood_affirm
+  - mood_deny
+  - mood_great
+  - mood_unhappy
+  - introduce
+  - finddoctor
+  - ask_location
+  - ask_problem
+  - ask_name
+
+entities:
+ - location
+ - name
+ - user_problem
+
+slots:
+  location:
+    type: text
+  name:
+    type: text
+  user_problem:
+    type: text
+  ask_name:
+    type: text
+
+actions:
+- greet
+- cheer_up
+- did_that_help
+- happy
+- goodbye
+- unknown
+- welcome
+- finddoctor
+- ask_location
+- ask_problem
+- ask_name
+
+templates:
+  ask_name:
+  - text: "May i know your name"
+  - text: "How can i call you"
+  - text: "your name please"
+
+  ask_location:
+  - text: "Where do you from"
+
+  ask_problem:
+  - text: "Finding the Appropriate doctors for {user_problem}"
+
+  greet:
+  - text: "Hey! How are you?"
+
+  cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  finddoctor:
+  - text : "I will find the doctor as your need"
+
+  welcome:
+  - text : "Hello {name}! i am Carebot, How can i Help you?"
+
+  did_that_help:
+  - text: "Did that help you?"
+
+  happy:
+  - text: "Great carry on!"
+
+  goodbye:
+  - text: "Bye"
+
+  unknown:
+  - text: "I didn't get that. Can you say it again?"
+  - text: "I missed what you said. What was that?"
+  - text: "Sorry, could you say that again?"
+  - text: "Sorry, can you say that again?"
+  - text: "Can you say that again?"
+  - text: "Sorry, I didn't get that. Can you rephrase?"
+  - text: "Sorry, what was that?"
+  - text: "One more time?"
+  - text: "What was that?"
+  - text: "Say that one more time?"
+  - text: "I didn't get that. Can you repeat?"
+  - text: "I missed that, say that again?"
